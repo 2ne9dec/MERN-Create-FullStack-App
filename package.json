@@ -1,0 +1,36 @@
+{
+  "name": "mern-create-fullstack-app",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ne9dec/MERN-Create-FullStack-App.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Vadim Astapenko <o-maestpo@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2ne9dec/MERN-Create-FullStack-App/issues"
+  },
+  "homepage": "https://github.com/2ne9dec/MERN-Create-FullStack-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
